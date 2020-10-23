@@ -1,9 +1,7 @@
 <template>
-  <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 border h-screen">
-    <header class="w-full bg-teal-100 flex">
-      <div>
-        <img class="w-1/5" src="./assets/logo.png" />
-      </div>
+  <div class="container">
+    <header class="">
+      <Navigation />
     </header>
     <main>
       Set your content here
@@ -12,8 +10,11 @@
 </template>
 
 <script>
+import Navigation from './components/UI/Navigation'
 export default {
-  components: {},
+  components: {
+    Navigation
+  },
 };
 </script>
 
