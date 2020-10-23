@@ -1,1 +1,1 @@
-npx degit https://github.com/TRIPTYK/tpk-vue-base#main folder
+Fichier base pour exo final vuejs
