@@ -4,7 +4,7 @@
       <Navigation />
     </header>
     <main>
-      Set your content here
+      <router-view></router-view>
     </main>
   </div>
 </template>
